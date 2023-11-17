@@ -1,0 +1,92 @@
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.container .card {
+  position: relative;
+}
+img {
+  width: 100%;
+}
+.container .card .face {
+  width: 300px;
+  height: 230px;
+  transition: 0.4s;
+}
+
+.container .card .face.face1 {
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .face.face1 {
+  transform: translateY(0);
+  box-shadow: inset 20px 0 80px rgba(87, 233, 221, 0.7035189075630253),
+    -20px 0 80px #0ff, inset 20px 0 300px rgba(87, 233, 221, 0.7035189075630253),
+    inset -20px 0 300px #0ff, 0 0 50px #fff, 10px 0 80px #0ff;
+}
+
+.container .card .face.face1 .content {
+  transition: 0.5s;
+  text-align: center;
+}
+
+.container .card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.container .card .face.face1 .content h3 {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding-bottom: 2px;
+  font-weight: 700;
+}
+
+.container .card .face.face2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px #000000cc;
+  transform: translateY(-80px);
+}
+
+.card-description {
+  font-size: 15px;
+  font-weight: 600;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+
+.container .card:hover .face.face2 {
+  transform: translateY(0);
+}
+.container .card .face.face2 .delete-button {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  width: 60px;
+  height: 25px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.container .card .face.face2 .delete-button:hover {
+  background-color: red;
+}

@@ -1,0 +1,44 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.username {
+  margin-bottom: 10px;
+}
+
+.login-button {
+  font-size: 15px;
+  margin-top: 15px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  -o-transition: 0.4s ease-in-out;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  background-image: linear-gradient(
+    to right,
+    #085078 0%,
+    #85d8ce 51%,
+    #085078 100%
+  );
+  box-shadow: 0 4px 10px 0 rgba(65, 132, 234, 0.75);
+}
+
+.login-button:hover {
+  background-position: 100% 0;
+}
+.login-button:focus {
+  outline: none;
+}

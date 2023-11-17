@@ -1,0 +1,27 @@
+.welcome {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  color: linear-gradient(
+    180deg,
+    rgb(27, 157, 161) 0%,
+    rgba(87, 233, 221, 0.7035189075630253) 71%
+  );
+}
+.line {
+  width: 750px;
+  margin-top: 5px;
+}
+
+.find {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  font-size: 20px;
+  font-weight: 700;
+}

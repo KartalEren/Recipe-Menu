@@ -2,13 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  margin-left: 100px;
   height: 100vh;
 }
 
 .button-theme {
   font-size: 15px;
   margin-top: 15px;
+  margin-left: 1620px;
   font-weight: 700;
   color: #fff;
   cursor: pointer;
@@ -29,10 +30,11 @@
     #085078 100%
   );
   box-shadow: 0 4px 10px 0 rgba(65, 132, 234, 0.75);
-  .button-theme:hover {
-    background-position: 100% 0;
-  }
-  .button-theme:focus {
-    outline: none;
-  }
+}
+.button-theme:hover {
+  background-position: 100% 0;
+}
+
+.button-theme:focus {
+  outline: none;
 }

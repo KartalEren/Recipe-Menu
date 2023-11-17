@@ -24,13 +24,15 @@ export const Theme = () => {
   }, []);
   return (
     <div className="theme">
-      <label>Theme</label>
       <button className="button-theme" onClick={toggleTheme}>
+        {" "}
         {theme === "light" ? "Switch to Dark" : "Switch to Light"}{" "}
       </button>
       <div className="user-profile">
         <img src={user.avatar} alt="" />
-        <p>Welcome {user.name}</p>
+        <p>
+          Welcome <strong>{user.name}</strong>
+        </p>
         <p>Role: {user.role}</p>
         <p>Emal: {user.email}</p>
       </div>

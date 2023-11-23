@@ -13,6 +13,7 @@ import { SettingPage } from "./Pages/SettingPage/SettingPage.jsx";
 import { LoginPage } from "./Pages/LoginPage/LoginPage.jsx";
 import { AuthProvider } from "./Context/AuthContext.jsx";
 import PrivateRoute from "./Services/PrivateRoute.jsx";
+import Footer from "./Component/Footer/Footer.jsx";
 
 export function App() {
   const { theme } = useContext(UserPreferencesContext);
@@ -36,6 +37,7 @@ export function App() {
             </Routes>
           </UserPreferencesProvider>
         </BrowserRouter>
+        <Footer />
       </AuthProvider>
     </div>
   );

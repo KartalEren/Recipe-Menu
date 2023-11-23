@@ -1,0 +1,36 @@
+/*=-footer-=*/
+footer {
+  color: #fff;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(87, 233, 221, 0.7035189075630253) 71%
+  );
+  text-align: center;
+  padding-top: 5px;
+}
+
+.social-pet li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.social-pet li a {
+  width: 100%;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 100%;
+}
+.social-pet li a:hover {
+  background-color: rgb(38, 44, 51);
+}
+
+.social-pet li a:hover i {
+  transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+.copyright {
+  font-size: 14px;
+  padding-bottom: 5px;
+}

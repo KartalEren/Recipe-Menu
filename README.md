@@ -22,7 +22,7 @@ Menu Ekleme Sayfası
 
 ![4](https://github.com/KartalEren/Recipe-Menu/assets/130454405/c2e17171-09ab-460a-9adc-d7aa0c244f2c)
 
-Menüye boş geçilip kayıt işlemi yapılırsa verdiği hatalar
+Menü ekleme alanları boş geçilip kayıt işlemi yapılırsa verdiği hatalar
 
 ![5](https://github.com/KartalEren/Recipe-Menu/assets/130454405/a05310d4-76a8-4ae3-8225-a057f0e7b4ff)
 

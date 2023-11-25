@@ -22,7 +22,7 @@ export const Login = () => {
 
   return (
     <div className="login">
-      <form onSubmit={handleLogin}>
+      <form className="login-form" onSubmit={handleLogin}>
         <label>LOGIN</label>
         <br />
         <input

@@ -36,8 +36,9 @@ export function App() {
               />
             </Routes>
           </UserPreferencesProvider>
+
+          <Footer />
         </BrowserRouter>
-        <Footer />
       </AuthProvider>
     </div>
   );
